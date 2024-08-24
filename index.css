@@ -2,43 +2,49 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 body{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: start;
+    background-color: #444;
 }
 .main{
-    background-color: beige;
+    background-color:#111 ;
+    margin: 20px auto;
     height: max-content;
     width: 80%;
     border-radius: 20px;
-    margin-top: 10%;
 }
-span{
-    font-size: 150%;
+h4{
+    font-size: 40px;
     text-align: center;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    color: white;
+    margin: auto;
+    margin-bottom: 20px;
     
 }
 .task{
     text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
     .input{
     width: 70%;
+    height: 80%;
     border: none;
     padding: 5px 10px;
-    border-color: #ffb60a;
+    border-color: rgb(1, 110, 1);
     border-style: solid;
     border-top:none  ;
     border-left: none;
     border-radius: 10px;
+    margin: auto ;
     }
     .add{
-        background-color:#ffb60a ;
+        height: 50%;
+        margin: auto ;
+        background-color:rgb(1, 110, 1);
         padding: 5px 15px;
         border-radius: 10px;
         border-color: #ffffff;
@@ -47,6 +53,7 @@ span{
         border-left: none;
         border-radius: 10px;
         cursor: pointer;
+        color: white;
     }
 }
 
@@ -59,6 +66,8 @@ border-radius: 0px 0px 20px 20px ;
         display: flex;
         justify-content: space-between;
         padding: 5px 10px;
+        border-top: #ffb60a solid 5px;
+        border-radius:  0px 0px 20px 20px;
         p{
         color: #000;
             background-color: #ffb60a;
