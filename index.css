@@ -16,7 +16,7 @@ body{
     border-radius: 20px;
 }
 h4{
-    font-size: 40px;
+    font-size: 100px;
     text-align: center;
     width: 100%;
     color: white;
@@ -26,10 +26,11 @@ h4{
 }
 .task{
     text-align: center;
-    height: 60px;
+    height: 100px;
     display: flex;
     justify-content: center;
     .input{
+    font-size: 300%;
     width: 70%;
     height: 80%;
     border: none;
@@ -42,7 +43,9 @@ h4{
     margin: auto ;
     }
     .add{
-        height: 50%;
+        height: 80%;
+        font-size: 340%;
+        width: 20%;
         margin: auto ;
         background-color:rgb(1, 110, 1);
         padding: 5px 15px;
@@ -64,12 +67,14 @@ background-color: rgba(0, 0, 0, 0.919);
 border-radius: 0px 0px 20px 20px ;
     .tasks{
         display: flex;
+        font-size: 300%;
         justify-content: space-between;
         padding: 5px 10px;
         border-top: #ffb60a solid 5px;
         border-radius:  0px 0px 20px 20px;
         p{
         color: #000;
+        font-size: 90%;
             background-color: #ffb60a;
             padding: 5px 15px;
             border-radius: 10px;
