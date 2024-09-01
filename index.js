@@ -35,3 +35,31 @@ function save(){
   window.localStorage.setItem("tasks",result.innerHTML);
   
 }
+/* */
+let navp=document.querySelector(".nav")
+let body=document.querySelector("body")
+let nav=document.querySelector("nav")
+navp.onclick = function(){
+  if(body.style.background==="white"){
+    black();
+  }
+  else{
+    color();
+  }
+} 
+ 
+  function color(){
+    body.style.background="white";
+    nav.style.background="#0d6efd";
+    add.style.background="#0d6efd";
+    result.style.background="#0d6efd";
+  
+  }
+  
+function black(){
+  body.style.background="#444";
+  nav.style.background="#007425";
+  add.style.background="rgb(1, 110, 1)";
+  result.style.background="#000000ea";
+
+}
